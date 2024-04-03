@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en" theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+    <div id="sidebar">
+        <div class="toggle-sidebar">
+            <i class="las la-bars"></i>
+        </div>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home" class="active inner-link">
+                        <i class="las la-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <a href="#about_me" class="inner-link">
+                        <i class="las la-address-card"></i>
+                        <span>About Me</span>
+                    </a>
+                    <span>About Me</span>
+                </li>
+                <li>
+                    <a href="#my_resume" class="inner-link">
+                        <i class="las la-file"></i>
+                        <span>My Resume</span>
+                    </a>
+                    <span>My Resume</span>
+                </li>
+                <li>
+                    <a href="#my_work" class="inner-link">
+                        <i class="las la-briefcase"></i>
+                        <span>My Work</span>
+                    </a>
+                    <span>My Work</span>
+                </li>
+                <li>
+                    <a href="#contact_me" class="inner-link">
+                        <i class="las la-phone"></i>
+                        <span>Contact Me</span>
+                    </a>
+                    <span>Contact Me</span>
+                </li>
+            </ul>
+        </nav>
+        <div class="toggle-mode">
+            <div class="outer" onclick="toggleMode()">
+                <div class="inner"></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section id="home" class="active">
+            <div class="meteor-shower"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 info">
+                        <img class="person-circle" src="assets/images/person-circle.png" alt="person circle">
+                        <h1><span>I'm</span> Harsh,</h1>
+                        <div class="field">
+                            <h2></h2>
+                        </div>
+                        <p>Detail-focused Data Analyst with knowledge in Data Warehousing, process validation and business needs analysis.
+                            Proven to understand customer requirements and translate into actionable project plans.
+                        </p>
+                        <a class="btn-custom-blue" href="assets/files/cv.pdf" download>Download CV</a>
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/harsh-saraswat-436b29219/">
+                                        <i class="lab la-linkedin-in"></i>
+                                        <span>Linkedin</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/harsh.saraswat.330/about">
+                                        <i class="lab la-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/harsh-collab">
+                                        <i class="lab la-github"></i>
+                                        <span>Github</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://stackoverflow.com/users/14355657/harsh-saraswat">
+                                        <i class="lab la-stack-overflow"></i>
+                                        <span>Stack Overflow</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 image">
+                        <img src="assets/images/person-home.png" alt="person home">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about_me">
+            <div class="container">
+                <div class="row hero">
+                    <div class="col-xxl-6 col-lg-4 image">
+                        <img src="assets/images/person-about.png" alt="person about">
+                    </div>
+                    <div class="col-xxl-6 col-lg-8 info">
+                        <header class="has-bg">
+                            <img src="assets/images/h1-bg.png" alt="h1 bg">
+                            <img src="assets/images/h1-bg-light.png" alt="h1 bg">
+                            <h1>About Me</h1>
+                        </header>
+                        <h2>Data Analyst</h2>
+                        <p>
+                            Welcome to my portfolio website! I'm Harsh Saraswat, a dedicated data enthusiast with a passion for leveraging insights from raw information. With over 2-3 years of hands-on experience in data analysis, I've cultivated a deep proficiency in various computer languages, particularly Python, along with essential libraries like NumPy, Pandas, Matplotlib, Seaborn, and BeautifulSoup.
+                            Throughout my journey, I've immersed myself in the world of data, harnessing its power to drive informed decision-making. I've had the privilege of working on real-world projects where I've applied my analytical skills to extract valuable insights and solve complex problems.
+                        </p>
+                        <div class="items">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 ps-0">
+                                        <div class="item">
+                                            <span class="title">Name:</span>
+                                            <span class="value">Harsh Saraswat</span>
+                                        </div>
+                                        <div class="item">
+                                            <span class="title">Age:</span>
+                                            <span class="value">21</span>
+                                        </div>
+                                        <div class="item">
+                                            <span class="title">Location:</span>
+                                            <span class="value">Jaipur</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 ps-0">
+                                        <div class="item">
+                                            <span class="title">Years of experience:</span>
+                                            <span class="value">2 Years</span>
+                                        </div>
+                                        <div class="item">
+                                            <span class="title">Phone:</span>
+                                            <span class="value">8302903206</span>
+                                        </div>
+                                        <div class="item">
+                                            <span class="title">Mail:</span>
+                                            <span class="value">harshsaraswat13@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <a href="assets/files/cv.pdf" class="btn-custom-blue" download>Download CV</a>
+                            <a href="#contact_me" class="btn-custom-dark inner-link">Message me</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row languages-skills">
+                    <div class="col-lg-6 languages-key-skills">
+                        <div class="languages">
+                            <header class="custom">
+                                <h2>Languages</h2>
+                            </header>
+                            <ul class="items">
+                                <li class="item">
+                                    <div class="info">
+                                        <h3>English</h3>
+                                        <span class="level">Fluent</span>
+                                    </div>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="info">
+                                        <h3>Hindi</h3>
+                                        <span class="level">Native</span>
+                                    </div>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="key-skills">
+                            <header class="custom">
+                                <h2>Key Skills</h2>
+                            </header>
+                            <ul class="items">
+                                <li class="item">
+                                    <h3>Problem Solving</h3>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3>Business Mindset</h3>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3>Analytical Skills</h3>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 web-skills mt-5 mt-lg-0">
+                        <header class="custom">
+                            <h2>My Data Analytical Skills</h2>
+                        </header>
+                        <div class="container">
+                            <div class="items row">
+                                <div class="col-xl-4 col-sm-6 px-2">
+                                    <div class="item">
+                                        <img src="assets/images/web skills/Python.png" alt="python">
+                                        <h3>Python</h3>
+                                        <span class="year">3 years</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6 px-2">
+                                    <div class="item">
+                                        <img src="assets/images/web skills/NumPy.png" alt="numpy">
+                                        <h3>NumPy</h3>
+                                        <span class="year">2 years</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6 px-2">
+                                    <div class="item">
+                                        <img src="assets/images/web skills/Pandas.png" alt="pandas">
+                                        <h3>Pandas</h3>
+                                        <span class="year">2 years</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6 px-2">
+                                    <div class="item">
+                                        <img src="assets/images/web skills/Matplotlib.png" alt="matplotlib">
+                                        <h3>Matplotlib</h3>
+                                        <span class="year">2 years</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6 px-2">
+                                    <div class="item">
+                                        <img src="assets/images/web skills/SQLite.png" alt="sqlite">
+                                        <h3>SQLite</h3>
+                                        <span class="year">2 years</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6 px-2">
+                                    <div class="item">
+                                        <img src="assets/images/web skills/Jupyter Notebook.png" alt="jupyter">
+                                        <h3>Jupyter</h3>
+                                        <span class="year">4 years</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificates">
+                    <header class="custom">
+                        <h2>My Certifications</h2>
+                    </header>
+                    <div class="items row justify-content-center">
+                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 item">
+                            <img src="assets/images/certifications/1.png" alt="certification">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 item">
+                            <img src="assets/images/certifications/2.png" alt="certification">
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 item">
+                            <img src="assets/images/certifications/3.png" alt="certification">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="my_resume">
+            <div class="text-center">
+                <header class="has-bg">
+                    <img src="assets/images/h1-bg.png" alt="h1 bg">
+                    <img src="assets/images/h1-bg-light.png" alt="h1 bg">
+                    <h1>My Resume</h1>
+                </header>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 education">
+                        <header class="custom">
+                            <h2>Education</h2>
+                        </header>
+                        <div class="items">
+                            <div class="item last">
+                                <div class="icon">
+                                    <i class="las la-university"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">2021-2024</span>
+                                    <h2 class="title">BCA Degree</h2>
+                                    <p>Undergoing my bachelor's degree from Manipal University Jaipur</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="las la-university"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">2018-2021</span>
+                                    <h2 class="title">High School</h2>
+                                    <p>Did my high schooling from Cambridge Court High School</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="las la-university"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">2008-2018</span>
+                                    <h2 class="title">Elementary School</h2>
+                                    <p>Did my elementary schooling from Cambridge Court High School</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 experience">
+                        <header class="custom">
+                            <h2>My Works</h2>
+                        </header>
+                        <div class="items">
+                            <div class="item last">
+                                <div class="icon">
+                                    <i class="las la-briefcase"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">2024</span>
+                                    <h2 class="title">Stocks Suggestion</h2>
+                                    <p>Did a project which provide list of upcoming profitable stocks daily</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="las la-briefcase"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">2023</span>
+                                    <h2 class="title">Zomato Casestudy</h2>
+                                    <p>Did a project regarding Zomato Analysis using various Visualisation</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="las la-briefcase"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">2021-2022</span>
+                                    <h2 class="title">Python Projects</h2>
+                                    <p>Did various Real time Python Projects. They are uploaded on GitHub</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="my_work">
+            <div class="text-center">
+                <header class="has-bg">
+                    <img src="assets/images/h1-bg.png" alt="h1 bg">
+                    <img src="assets/images/h1-bg-light.png" alt="h1 bg">
+                    <h1>My Work</h1>
+                </header>
+            </div>
+            <div class="filters">
+                <button data-group="all" class="active">
+                    <h4>All</h4>
+                </button>
+                <button data-group="Data Analysis">
+                    <h4>Data Analysis</h4>
+                </button>
+                <button data-group="Python">
+                    <h4>Python</h4>
+                </button>
+                <button data-group="Automation">
+                    <h4>Automation</h4>
+                </button>
+            </div>
+            <div class="container">
+                <div class="row work-items">
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Data Analysis"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/1.png"
+                            data-title="Stock Market Case-study"
+                            data-description="Welcome to my project! I'm using Python and libraries like NumPy, Pandas, Matplotlib, and Seaborn to analyze Apple's stock market performance. I collect data, clean it for accuracy, analyze trends using Pandas, and visualize insights with Matplotlib and Seaborn. Join me as I uncover valuable insights into Apple's stock behavior through data analysis and visualization."
+                            data-client="Harsh Saraswat"
+                            data-completed="October 29 2023"
+                            data-skills="Python, Numpy, Pandas, Matplotlib"
+                            data-project-link="#"
+                        >
+                            <img src="assets/images/works/1.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Python","Automation"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/2.png"
+                            data-title="Voice Assistant"
+                            data-description="My Python-based voice assistant project is an advanced automation system designed to simplify daily tasks and enhance productivity. It understands voice commands, providing information on news, weather, and more. It can open applications seamlessly, saving time and effort. Additionally, it serves as a personal DJ, playing music upon request. Overall, it's a versatile tool that seamlessly integrates into your routine, making life easier and more enjoyable."
+                            data-client="Harsh Saraswat"
+                            data-completed="May 12 2021"
+                            data-skills="Python, Automation"
+                            data-project-link="https://github.com/harsh-collab/Python-Projects/blob/main/voice%20assistant.py"
+                        >
+                            <img src="assets/images/works/2.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Python"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/3.png"
+                            data-title="Weather Display"
+                            data-description="Introducing my Python Weather Display project, a user-friendly tool for accessing real-time weather information. With a simple interface, it fetches data from reliable sources like OpenWeatherMap, providing current conditions and forecasts for any city. It's customizable, offering metrics in metric or imperial units, and includes key details like temperature, humidity, and wind speed. Stay informed and plan ahead with ease, whether you're at home or traveling."
+                            data-client="Harsh Saraswat"
+                            data-completed="September 8 2021"
+                            data-skills="Python, Automation"
+                            data-project-link="https://github.com/harsh-collab/Python-Projects/blob/main/weather.py"
+                        >
+                            <img src="assets/images/works/3.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Python","Automation"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/4.png"
+                            data-title="Whatsapp Automation"
+                            data-description="Introducing my Python-based WhatsApp Automation program, a versatile tool designed to streamline messaging tasks. It automates actions like sending messages, replying to incoming messages, and scheduling messages."
+                            data-client="Harsh Saraswat"
+                            data-completed="January 10 2022"
+                            data-skills="Python, Automation"
+                            data-project-link="https://github.com/harsh-collab/Python-Projects/blob/main/whatsapp_automation.py"
+                        >
+                            <img src="assets/images/works/4.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Data Analysis"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/5.png"
+                            data-title="YouTube Analysis"
+                            data-description="Introducing a data analysis project focused on YouTube: This project delves into user engagement and content popularity. It involves analyzing emoji usage in comments to gauge user interaction, conducting sentiment analysis to identify positive and negative words, and examining content to find the most viewed videos and channels."
+                            data-client="Harsh Saraswat"
+                            data-completed="December 3 2023"
+                            data-skills="Numpy, Pandas, Matplotlib"
+                            data-project-link="https://github.com/harsh-collab/youtube_analysis"
+                        >
+                            <img src="assets/images/works/5.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Data Analysis"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/6.png"
+                            data-title="Zomato Case-study"
+                            data-description="Introducing a data analysis project focused on Zomato in Bangalore: This project aims to uncover dining preferences, online ordering behavior, and customer sentiments. It includes identifying popular dishes, assessing acceptance of online orders, analyzing common praise words, and pinpointing areas with the highest online order volume. By analyzing these factors, valuable insights are gained for restaurants and food delivery platforms to enhance services and optimize strategies in Bangalore."
+                            data-client="Harsh Saraswat"
+                            data-completed="January 14 2024"
+                            data-skills="Numpy, Pandas, Matplotlib, Seaborn"
+                            data-project-link="https://github.com/harsh-collab/zomato_analysis"
+                        >
+                            <img src="assets/images/works/6.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Data Analysis"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/7.png"
+                            data-title="Firecracker Shop Case-study"
+                            data-description="This project involves gathering data from sales records, inventory logs, and customer feedback. The data is then cleaned to ensure accuracy. Finally, statistical analysis and visualization techniques are applied to gain insights into sales performance, popular products, and customer preferences. These insights inform strategic decisions, enhancing business efficiency and profitability."
+                            data-client="Harsh Saraswat"
+                            data-completed="January 24 2024"
+                            data-skills="Numpy, Pandas, Matplotlib"
+                            data-project-link="#"
+                        >
+                            <img src="assets/images/works/7.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Data Analysis","Automation"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/8.png"
+                            data-title="Stock Prediction"
+                            data-description="This project aims to streamline stock selection by leveraging data analysis and automation. Using real-time data from the NSE website, the project identifies five stocks daily with the highest potential for profitability. Through in-depth analysis, it determines optimal buying and selling times for each selected stock. Furthermore, the project automates the process of opening Zerodha charts for these five stocks, providing traders with visual insights and facilitating informed decision-making."
+                            data-client="Harsh Saraswat"
+                            data-completed="March 4 2024"
+                            data-skills="Numpy, Pandas, Matplotlib, Seaborn, BeautifulSoup, Python"
+                            data-project-link="#"
+                        >
+                            <img src="assets/images/works/8.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Python"]'>
+                        <div
+                            class="wrap"
+                            data-image="assets/images/works/9.png"
+                            data-title="GUI App"
+                            data-description="It is Python-Based project which invloves makein a simple GUI App, that includes Buttons and Checkboxes, It was made by using Python library called tkinter."
+                            data-client="Harsh Saraswat"
+                            data-completed="August 30 2021"
+                            data-skills="Python"
+                            data-project-link="#"
+                        >
+                            <img src="assets/images/works/9.png" alt="work">
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <section id="contact_me">
+            <div class="text-center">
+                <header class="has-bg">
+                    <img src="assets/images/h1-bg.png" alt="h1 bg">
+                    <img src="assets/images/h1-bg-light.png" alt="h1 bg">
+                    <h1>Contact Me</h1>
+                </header>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 form">
+                        <form>
+                            <div class="form-item">
+                                <label>Name</label>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="form-item">
+                                <label>Email</label>
+                                <input type="email" name="email">
+                            </div>
+                            <div class="form-item">
+                                <label>Subject</label>
+                                <input type="text" name="subject">
+                            </div>
+                            <div class="form-item">
+                                <label>Message</label>
+                                <textarea name="message"></textarea>
+                            </div>
+                            <div class="text-end">
+                                <button type="submit" class="btn-custom-dark">Send message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 info">
+                        <div class="item">
+                            <i class="las la-phone"></i>
+                            <div class="text">
+                                <span class="title">Phone number:</span>
+                                <a href="tel:8302903206">8302903206</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="las la-envelope"></i>
+                            <div class="text">
+                                <span class="title">Email:</span>
+                                <a href="mailto:harshsaraswat13@gmail.com">harshsaraswat13@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="las la-map-marker-alt"></i>
+                            <div class="text">
+                                <span class="title">Location:</span>
+                                <p>Jaipur, Rajasthan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal fade" id="workModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="modal-close-button" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="las la-times"></i>
+                    </button>
+                    <img src="" alt="work">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 left">
+                                <h2 class="title"></h2>
+                                <p class="description"></p>
+                            </div>
+                            <div class="col-lg-5 right">
+                                <div class="client mb-3">
+                                    <i class="las la-user-alt"></i>
+                                    <span class="title">Made By:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="completed mb-3">
+                                    <i class="lar la-calendar-check"></i>
+                                    <span class="title">Completed:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="skills">
+                                    <i class="las la-flask"></i>
+                                    <span class="title">Skills:</span>
+                                    <span class="value"></span>
+                                        
+                                </div>
+                                <div class="project-link">
+                                    <i class="las la-link"></i>
+                                    <a href="">Project Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/6.1.0/shuffle.min.js" integrity="sha512-r8mIpk3ypCMwNxH6srRZGbjHQlOFt3Mq2vrZ/iymx6g9JUqTeVavofeX6gbrxAC74X5HmBy5gxyhCm6OiXrM0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
